@@ -14,6 +14,7 @@ public class exercicio_fixacao_1 {
 		double price1 = 2100.0;
 		double price2 = 650.0;
 		double measure = 53.234567;
+		
 
 		Locale.setDefault(Locale.US);
 
