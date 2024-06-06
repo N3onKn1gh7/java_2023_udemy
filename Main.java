@@ -1,30 +1,33 @@
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
 
+		
 		Scanner sc = new Scanner(System.in);
+		int hora;
 		
-		int x;
-		String s1, s2, s3;
-		
-		x = sc.nextInt();
-		s1 = sc.nextLine();
-		s2 = sc.nextLine();
-		s3 = sc.nextLine();
-		
-		System.out.println("DADOS DIGITADOS:");
-		
-		System.out.println(x);
-		System.out.println(s1);
-		System.out.println(s2);
-		System.out.println(s3);
-		
+		System.out.println("Quantas horas?");
+		hora = sc.nextInt();
 
+		
+		if (hora < 12) {
+		System.out.println("bom dia");
+		}
+		else if (hora < 18){
+				System.out.println("boa tarde");
+			}	
+		else {
+				System.out.println("Boa noite");
+			}
+		}
+		
+		
 		sc.close();
+		
 
+		
 	}
 
 }
