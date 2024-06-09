@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exercicio_estrutura_condicional_1 {
+public class exercicio_estrutura_condicional_2 {
 
 	public static void main(String[] args) {
 
@@ -8,13 +8,15 @@ public class exercicio_estrutura_condicional_1 {
 
 		int numero = sc.nextInt();
 
-		if (numero >= 0) {
-			System.out.println("NAO NEGATIVO");
+		if (numero % 2 == 0) {
+
+			System.out.println("PAR");
 		}
 
 		else {
-			System.out.println("NEGATIVO");
+			System.out.println("IMPAR");
 		}
+
 		sc.close();
 	}
 
