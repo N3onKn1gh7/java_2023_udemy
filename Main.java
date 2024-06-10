@@ -6,20 +6,17 @@ public class Main {
 
 		Scanner sc = new Scanner(System.in);
 
-		int x = sc.nextInt(); /* recebe um valor do usuario na variavel x*/
+		int N = sc.nextInt();
 
-		int soma = 0; 
-
-		while (x != 0) {      /*Enquanto x for diferente de 0 as instruçoes do bloco vao se repetir*/
-
-			soma = soma + x;  /* A variavel soma vai acumular o valor de x*/
-			x = sc.nextInt(); /* A variavel soma vai receber o valor de x enquanto x for diferente de 0*/
+		int soma = 0;
+		for (int i = 0; i < N; i++) {
+			int x = sc.nextInt();
+			soma = soma + x;
 		}
-
-		System.out.println(soma); /*Quando x for igual a zero, a estrutura repetitiva para e o comando de impressao na tela é realizado mostrando a soma dos falores acumulados*/
-
+		
+		System.out.println(soma);
+		
 		sc.close();
 
 	}
-
 }
