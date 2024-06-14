@@ -16,6 +16,7 @@ public class exercicio_resolvido_8 {
 		}
 
 		else {
+			
 			min = y;
 			max = x;
 		}
